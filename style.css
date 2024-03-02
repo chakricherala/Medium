@@ -172,8 +172,6 @@ h5 {
 
 .section{
     background-color: white;
-    top: 40px;
-    position: sticky;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -191,12 +189,17 @@ h5 {
 
 .links{
     border-top: 0.6px solid #6b6b6b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 6px;
+    justify-content: space-between;
 }
 
 .links a{
     color: #6B6B6B;
-    margin: 10px 4px;
-    padding: 10px 5px;
+    /* margin: 10px 4px;
+    padding: 10px 5px; */
 }
 
 .buttons button{
